@@ -9,10 +9,11 @@ font-family: 'Alfa Slab One', cursive;
 .hero{
     background: url(../img/header.jpg) no-repeat;
     background-size: cover;
-    height: 50vh;
+    height: 45vh;
     min-height: 600px;
     color: white;
 }
+
 .lista-novedades{
     margin: 0;
     padding: 0;
@@ -51,19 +52,19 @@ font-family: 'Alfa Slab One', cursive;
 }
 .testimonios{
     background-color: #dadada;
-    padding-top: 2rem !important;
+    padding-top: 3rem !important;
 }
 .testimonio {
+    
     text-align: center;
-    padding: 30px 20px;
+    padding: 50px 20px;
 }
 
 .avatar {
-    border-radius: 50%;
-    height: 85px;
     object-fit: cover;
-    object-position: center;
-    width: 85px;
+    border-radius:50%;
+    width: 150px;
+    height: 150px;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {

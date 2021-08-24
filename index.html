@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@700&display=swap" rel="stylesheet">   
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    
     <link href="css/estilos.css" rel="stylesheet">  
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <title>Playeras</title>
@@ -21,16 +25,16 @@
  <div class="collapse navbar-collapse" id="navbarSupportContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Novedades</a>
+                <a class="nav-link" href="#testimonios">Novedades</a>
             </li>          
             <li class="nav-item">
-                <a class="nav-link" href="#">Nosotros</a>
+                <a class="nav-link" href="#nosotros">Nosotros</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Conocenos</a>
+                <a class="nav-link" href="#visitanos">Conocenos</a>
             </li>
         </ul>
     </div> 
@@ -46,7 +50,8 @@
 
     <div id="novedades" class="row py-4">
     <div class="col-md-5 offset-md-2 py-3">
-     
+       <br>
+       <br>
         <h2>Novedades</h2>
         <ul class="lista-novedades">
         <li>
@@ -82,9 +87,10 @@
       </div>
     </div>
     </div>
-
-    <div class="col-md-3">
-      <div class="rounded py-3 testimonios">
+     
+    <div class="col-md-4">
+      <div class="rounded py-3 testimonios" id="testimonios">
+        <br>
           <h2 class="text-center">Testimonios</h2>
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -95,9 +101,10 @@
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">                
                 <div class="testimonio">
-                  <h5>Miguel Alvarez</h5>
+                  <br>
+                  <h4>Miguel Alvarez</h4>
                   <img src="img/nosotros05.jpg" class="avatar">
-                  <p>Estoy encantado con sus productos.</p>
+                  <p>Los mejores productos en argentina.</p>
                 </div>
               </div>
               <div class="carousel-item">               
@@ -129,14 +136,127 @@
     </div> <!-- cierre testimonios--> 
     </div> <!-- cierre novedades-->  
 
+    <div id="historia" class="row align-items-center py-4">
+      <div class="col-lg-2 col-md-3 offset-lg-2 d-none d-sm-block">
+          <img src="img/zap5.jpeg" alt="historia 1" class="img-fluid" >
+      </div>
+      <div class="col-lg-2 col-md-3 d-none d-sm-block">
+        <img src="img/hero1.jpg" alt="historia 2" class="img-fluid" >
+      </div>
+      <div class="col-12 d-sm-none">
+        <img src="img/zap2.jpg" alt="historia 3" class="img-fluid" >
+      </div>
+      <div class="col-lg-4 col-md-6o mt-4 mt-sm-0">
+        <h2>Historia</h2>
+        <p>Las fábricas de calzado obtuvieron enormes beneficios gracias a  nuevas técnicas. La confección industrial y el comercio del calzado se expandieron con una rapidez
+           asombrosa en Estados Unidos, en el año 1901 se importaron más de un millón de zapatos americanos a Inglaterra. Los pequeños talleres zapateros no podían competir con
+            la rapidez de la confección industrial ni mucho menos con sus precios, por lo que sufrieron grandes pérdidas. </p>
+      </div>
+
+    </div>
+
+    <div id="nosotros" class="row align-items-stretch my-3 staff py-4">
+        <div class="col-lg-8 offset-lg-2">
+          <br>
+          <br>
+            <h2>Nosotros</h2>
+             <div class="card-deck">
+                <div class="card">
+                    <img src="img/nosotros1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jorge Madero</h5>
+                        <p class="card-text">Licenciado en Psicología con énfasis en Negocios, egresado de la Universidad de Texas en
+                          Austin con 10 años de experiencia en las áreas de Recursos Humanos de empresa mediana.</p>
+                    </div>
+                </div>
+                <div class="card">
+                  <img src="img/nosotros2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Mariana Becerra</h5>
+                      <p class="card-text"> Mi nombre es Mariana Becerra y he desarrollado toda mi carrera dedicado al mundo de la ingeniería de sistemas.
+                         Mi primera experiencia la tuve de la mano de la compañía CGI como ingeniero de sistemas junior. </p>
+                  </div>
+              </div>
+              <div class="card">
+                <img src="img/nosotros3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Victoria Robles</h5>
+                    <p class="card-text">Ingeniera industrial con más de 5 años de experiencia dirigiendo, como Jefe de Obra, equipos técnicos cualificados y personas.
+                       He liderado grandes proyectos de ejecución con una alta exigencia en términos de presupuesto, plazo y ejecución.</p>
+                </div>
+            </div>
+            <div class="card">
+              <img src="img/nosotros4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Miguel Ponce</h5>
+                  <p class="card-text">Ingeniero civil con dos años de experiencia en supervisión de obra. Capacidad de organización de equipos y de gestión de compra de material.
+                     Excelente trato con proveedores y con implementaciones de medidas de seguridad para los trabajadores. Dominio en técnicas de medición de espacios y estructuras.</p>
+              </div>
+          </div>
+             </div>
+        </div>
+    </div>  <!-- Cierra div nosotros-->
+
+    <div id="visitanos" style="background-color: lightgray;" class="row py-4" ">
+       <div class="col-md-4 offset-md-2">
+         
+          <h2>Visitanos</h2>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1642.0158312578958!2d-58.36433258859055!3d-34.60336085526328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3352fb2f50b8f%3A0x41547c805b1232be!2sJuana%20Manso%20590%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1629758995785!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+       </div>
+     <!-- cierre div visitanos-->
+
+     <div class="col-md-4 mt-4 mt-sm-0 container-fluid">
+        <h2>Contactanos</h2>
+          <form action="" class="flex-column flex-md-row">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                      <label for="nombre">Nombre</label>
+                      <input type="text" class="form-control" id="nombre" required> 
+                  </div>
+                <div class="form-group col-md-6">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" required>
+                </div>
+                <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="mail" placeholder="..." required>
+                </div> 
+                <div class="form-group col-md-6">
+                  <label for="tel">Tel</label>
+                  <input type="text" class="form-control" id="tel" placeholder="..." required>
+                </div>
+                <div class="form-group col-lg-12">
+                  <label for="mensaje">Mensaje</label>
+                  <textarea class="form-control" id="mensaje" rows="4"></textarea>
+                </div>
+              </div>
+                <div class="form-group">
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+               
+              </div>
+          </form>
+     </div> <!-- cierre contactanos-->
+    </div>
  </div> <!-- cierre container fluid--> 
  <footer>
      <p class="text-center">Diseñado por: Claudio Mandujano</p>
  </footer>
 
 
+
+ <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+ <script>
+	var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 2000
+});
+</script>
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ 
 </body>
 </html>
